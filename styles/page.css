@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+.page {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+  padding-top: 40px;
+  padding-left: 120px;
+  padding-right: 120px;
+  background-color: #1e1e1e;
+}
+/* Tablet */
+@media screen and (max-width: 768px) {
+  * {
+    box-sizing: border-box;
+  }
+  .page {
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+  }
+}
+/* Mobile */
+@media screen and (max-width: 320px) {
+  .page {
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
